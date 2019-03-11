@@ -44,8 +44,8 @@ echo $CYAN"Building image, "$dockername"..."$COLOR_END
 
 lib/install_quorum.sh
 lib/install_tessera.sh
-lib/build_nodemanager.sh
-lib/build_ui.sh
+# lib/build_nodemanager.sh
+# lib/build_ui.sh
 
 
 docker build --no-cache -t $dockername .
